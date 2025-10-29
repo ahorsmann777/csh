@@ -9,18 +9,13 @@ set now = `date "+%Y%m%d%H%M"`
 set proc = exce_expect_sftp_script
 set dirhome = `pwd`
 set log = $dirhome/$proc
-set letr_A = A
-set letr_B = B
-set letr_C = C
-set letr_D = D
-set letr_E = E
-set letr_S = S
-set file1 = prefix$today$letr_A.338
-set file2 = prefix$today$letr_B.338
-set file3 = prefix$today$letr_C.338
-set file4 = prefix$today$letr_E.338
-set file5 = prefix$today$letr_S.338
-set file6 = prefix$today$letr_D.338
+
+set file1 = prefix$today
+set file2 = prefix$today
+set file3 = prefix$today
+set file4 = prefix$today
+set file5 = prefix$today
+set file6 = prefix$today
 
 echo $today
 echo $now
