@@ -27,9 +27,6 @@ echo $file5
 echo $file6
 echo $dirhome
 echo $log
-echo $letr_A
-echo $letr_B
-echo $letr_C
 cd $dirhome
 echo '### Exec script expect ###'
 expect $proc.exp
